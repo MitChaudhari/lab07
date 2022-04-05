@@ -6,11 +6,9 @@ function init() {
         alert("Mitansh Chaudhari: " + getInput);
         document.getElementById("textoutput").innerHTML=getInput;
     }
-
+    
     var actButton = document.getElementById("entrybutton");
     actButton.addEventListener("click", alertFunction);
-
-
 
 }
 window.addEventListener('load', init);
